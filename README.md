@@ -1,7 +1,7 @@
 # Besties
 Simple serial communication between Arduino Mega and its new BFF, ODROID XU4 with Shifter Shield.
 
-You will need the ODROID <a href="https://github.com/hardkernel/wiringPi">WiringPi</a> library.
+You will need the ODROID <a href="https://github.com/hardkernel/wiringPi">fork</a> of the WiringPi library.
 
 Connections: 
 <ul>
