@@ -1,0 +1,21 @@
+
+void setup() {
+
+    pinMode(13, OUTPUT);
+
+    Serial1.begin(115200);
+}
+
+void loop() {
+
+    if (Serial1.available()) {
+
+        char c = tolower(Serial1.read());
+
+        if (c == 'h')
+            digitalWrite(13, HIGH);
+
+        if (c == 'l')
+            digitalWrite(13, LOW);
+    }
+}
